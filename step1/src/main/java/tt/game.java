@@ -19,7 +19,7 @@ public class game { //game class to represent the game and the behaviour of the 
     }
 
     public void switchTurn(){ //swicthes the turn between player 1 and player 2
-        if (currentPlayer == "player1"){ 
+        if (currentPlayer.equals("player1")){ 
             currentPlayer = "player2";
         }
         else{
